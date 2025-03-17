@@ -1,0 +1,29 @@
+.main-pipetka {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+svg {
+    border: none;
+  }
+.pipetka {
+    background-image: url('/images/pipetka.svg');
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-bottom: -25px;
+}
+
+.name-instrument-helper {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 18px;
+    background-color: rgba(1,1,1,0);
+}
+
+.block-instrument {
+    cursor: pointer; /* Установить курсор на pointer для блока */
+}

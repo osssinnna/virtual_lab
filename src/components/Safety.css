@@ -1,0 +1,15 @@
+.safe-text {
+    width: 99%;
+    height: 99%;
+    border: solid 4px rgb(120, 22, 120);
+    border-radius: 20px;
+    margin-left: 90px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.text-text-text {
+    width: 99%;
+    height: 99%;
+    white-space: pre-line;
+}

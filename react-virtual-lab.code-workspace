@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "react-virtual-lab",
+			"path": "."
+		},
+		{
+			"name": ".vscode",
+			"path": "../vite-virtual-lab/.vscode"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,10 @@
+
+.rastvor-table {
+    width: 1200px;
+    height: 760px;
+    background-image: url('/images/table-rast.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    border: solid 4px rgb(120, 22, 120);
+    margin-left: 100px;
+}

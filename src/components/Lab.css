@@ -1,0 +1,36 @@
+.lab-main-block {
+    width: 90%;
+    margin: 100px auto;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 0.7fr 3fr 0.5fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr;
+
+    grid-gap: 5px;
+}
+
+.lab-main-block > :nth-child(1) {
+    grid-row: 1 / span 1; /* Занимает первую строку */
+    grid-column: 2 / span 1; /* Занимает три столбца */
+
+}
+
+.lab-main-block > :nth-child(2) {
+    grid-row: 1 / span 2; /* Начиная со второй строки, занимает две строки */
+    grid-column: 0 / span 1; /* Занимает первый столбец */
+}
+
+.lab-main-block > :nth-child(3) {
+    grid-row: 2 / span 1; /* Начиная со второй строки, занимает одну строку */
+    grid-column: 2 / span 1; /* Начиная со второго столбца, занимает один столбец */
+}
+
+.lab-main-block > :nth-child(4) {
+    grid-row: 3 / span 1; /* Занимает третью строку */
+    grid-column: 2 / span 1; /* Начиная со второго столбца, занимает два столбца */
+}
+
+h6 {
+    text-align: center;
+    padding-top: 30px;
+}

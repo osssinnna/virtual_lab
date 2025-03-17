@@ -1,0 +1,12 @@
+.substances-main-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.substances {
+    font-size: 32px;
+}

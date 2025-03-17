@@ -1,0 +1,27 @@
+.inventory-main-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text-result {
+    text-align: center;
+}
+.move-level{
+    width: 100%;
+    height: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.table {
+    background-image: url("/images/table.svg");
+    width: 100%;
+    height: 27%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

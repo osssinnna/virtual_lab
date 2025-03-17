@@ -1,0 +1,34 @@
+.text-block-exercise {
+    width: 100%; /* Гарантирует полную ширину */
+    height: 90px; /* Гарантирует полную высоту */
+    overflow: hidden;
+    position: relative;
+    overflow-y: auto;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+
+
+.text-block-exercise::-webkit-scrollbar {
+width: 12px;               /* ширина всей полосы прокрутки */
+}
+
+.text-block-exercise::-webkit-scrollbar-track {
+background: #f7f6f6;        /* цвет зоны отслеживания */
+
+}
+
+.text-block-exercise::-webkit-scrollbar-thumb {
+    background-color: rgb(122,20,122);    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    border: 3px solid#f7f6f6;  /* отступ вокруг бегунка */
+}
+
+.base, .additional {
+    width: calc(100% - 12px);
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+    background-color: #D9D9D9;
+}

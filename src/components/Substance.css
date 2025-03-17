@@ -1,0 +1,17 @@
+.sabstance-main-block {
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(122,20,122);
+    border-radius: 15px;
+}
+
+.name-sub {
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(1,1,1,0);
+}

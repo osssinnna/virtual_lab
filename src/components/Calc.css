@@ -1,0 +1,7 @@
+.calc-main-block {
+    width: 80%;
+    margin: 10px auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
